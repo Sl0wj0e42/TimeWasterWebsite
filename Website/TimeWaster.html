@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="TimeWasterStyle.css">
+		<script type="text/javascript" src="TimeWasterJava.js"></script>
+		
+		<title>Project Time Waste (Place Holder Name)</title>
+	</head>
+
+	<body>
+		<head>
+		
+			<div class="header">
+			
+				<h1>
+					<a>This is my Header</a>
+				</h1>
+				
+				<div class="headerRight">
+				
+					<a>
+						<img src="images/HomeImage1.png" alt="Home" style="width:64px;height:64px;" onClick="window.location.reload();">
+					</a>
+					<!--<a>About</a>-->
+					
+				</div>
+				
+			</div>
+			
+		</head>
+		
+		<div>
+		
+			<h2 id = "PageChange1">
+				Please Fill Out The Following Boxes (Note: All Hours Should Be From Over The Week):
+			</h2>
+			
+			<div id = "PageChange2">
+
+				<input class = "InputStyle" id="inWork" type="number" min="0" max="24" rows="4" placeholder="Please Enter Hours You Have Been In A Work Place Environment (Eg: Lecture, Work)">
+				<input class = "InputStyle" id="workSchedule" type="number" min="0" max="24" placeholder="Please Enter Hours You Should Have Been In A Work Place Environment (Eg: Lecture, Work)">
+				<input class = "InputStyle" id="outWork" type="number" min="0" max="148" placeholder="Please Enter Hours You Have Done Work Outside The Work Place Environment (Eg: Home, Coffe Shop)">
+				<input class = "InputStyle" id="sleep" type="number" min="20" max="90" placeholder="Please Enter The Amount Of Hours Sleep You Have Had"><br>
+
+				<button onclick="SubmitionHit()">Submit</button>
+				
+				
+			</div>
+			
+		</div>
+			
+		<p id="error1"></p>
+
+	</body>
+
+</html>
